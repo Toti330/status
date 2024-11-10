@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Status Pages</title>
     <link rel="icon" href="https://dka575ofm4ao0.cloudfront.net/pages-favicon_logos/original/848511/330_Roboter-144df8c0-c907-4023-a4b1-be5fee398587.jpg" type="image/jpeg">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Doto&family=Host+Grotesk&family=Edu+AU+VIC+WA+NT+Pre&display=swap">
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #333;
-            color: #FFF;
+            background: linear-gradient(120deg, #000428, #004e92);
+            color: white;
             margin: 0;
             padding: 0;
             display: flex;
@@ -19,34 +20,39 @@
         }
         .container {
             text-align: center;
-            background-color: #444;
+            background-color: rgba(255, 255, 255, 0.1);
             padding: 30px;
             border-radius: 8px;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
             max-width: 600px;
         }
         h1 {
             color: #FFA500;
+            font-family: 'Doto', sans-serif;
             text-decoration: underline;
             margin-bottom: 20px;
         }
         .button-container {
             margin-top: 20px;
         }
+
         .button {
             background-color: #FFA500;
             color: #333;
-            padding: 10px 20px;
+            padding: 12px 25px;
             margin: 10px;
             border: none;
             border-radius: 5px;
-            cursor: pointer;
             font-size: 1em;
+            font-family: 'Host Grotesk', sans-serif;
             text-decoration: none;
             display: inline-block;
+            transition: background 0.3s ease, transform 0.3s ease;
         }
+
         .button:hover {
-            background-color: #FF8C00;
+            background-color: #FFD700;
+            transform: scale(1.1);
         }
     </style>
 </head>
@@ -54,10 +60,10 @@
     <div class="container">
         <h1>Status Pages</h1>
         <div class="button-container">
-            <a href="https://3301.statuspage.io" class="button" target="_blank">Main page</a>
-            <a href="https://330.betteruptime.com" class="button" target="_blank">2nd page</a>
-			<a href="https://stats.uptimerobot.com/2HXqvLKX3d" class="button" target="_blank">24/7 Status Page without incident updates</a>
-			<a href="https://330.instatus.com/" class="button" target="_blank">Unupdated status page</a>
+            <a href="https://3301.statuspage.io" class="button" target="_blank">Main Page</a>
+            <a href="https://330.betteruptime.com" class="button" target="_blank">2nd Page</a>
+            <a href="https://stats.uptimerobot.com/2HXqvLKX3d" class="button" target="_blank">24/7 Status Page</a>
+            <a href="https://330.instatus.com/" class="button" target="_blank">Unupdated Status Page</a>
         </div>
     </div>
 </body>
